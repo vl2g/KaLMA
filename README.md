@@ -31,10 +31,14 @@ To run VisTEL, training and inference. The following files are required:
 Set respective paths ```train.json``` and ```test.json``` in the ```configs/vistel_configs/{split_name}/``` folder.
 
 ### Training
-```python src/vistel/train.py configs/vistel_configs/{split_name}/train.json```
+```
+python src/vistel/train.py configs/vistel_configs/{split_name}/train.json
+```
 
 ### Testing
-```python src/vistel/test.py configs/vistel_configs/{split_name}/test.json```
+```
+python src/vistel/test.py configs/vistel_configs/{split_name}/test.json
+```
 
 ### Post processing results
 Results should be postprocessed as follows: Text between 'ASSISTANT:' and '[END]' will be the linked entity. Have to be saved at ```dataset/{split_name}/vistel_titles.json```
@@ -50,10 +54,14 @@ To run KaLMA, training and inference. The following files are required:
 4. vistel_titles.json for all splits.
 
 ### Training
-```python src/kalma/train.py configs/kalma/{split_name}/train.json```
+```
+python src/kalma/train.py configs/kalma/{split_name}/train.json
+```
 
 ### Testing
-```python src/kalma/test.py configs/kalma/{split_name}/test.json```
+```
+python src/kalma/test.py configs/kalma/{split_name}/test.json
+```
 
 ### Post processing results
 Results should be postprocessed as follows: Text between 'ASSISTANT:' and '[END]' will be the generated answer.
