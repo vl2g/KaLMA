@@ -1,0 +1,13 @@
+{
+    "train_file" : "dataset/scene/QA-scene-train_modified.json",
+    "valid_file" : "dataset/scene/QA-scene-val_modified.json",
+    "test_file" : "dataset/scene/QA-scene-test_modified.json",
+    "ocr_output_path" : "dataset/scene/ocr_output.json",
+    "candidate_entity_file" : "dataset/scene/filtered_ranked_titles_scene_train.json",
+    "checkpoint_path": "saved/vistel/scene/",
+    "kb_file" :  "dataset/scene/KB-business.json",
+    "wandb_project" : "vistel_scene_test",
+    "results_save_path" : "results/vistel_results/scene.json",
+    "valid_batch_size" : 16,
+    "use_gpu" : 1
+}

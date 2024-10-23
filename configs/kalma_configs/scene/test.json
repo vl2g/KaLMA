@@ -1,0 +1,15 @@
+{
+    "train_file" : "dataset/scene/QA-scene-train_modified.json",
+    "valid_file" : "dataset/scene/QA-scene-val_modified.json",
+    "test_file" : "dataset/scene/QA-scene-test_modified.json",
+    "load_from_pretrained_checkpoint" : 1,
+    "checkpoint_path": "saved/kalma/scene",
+    "kb_file" :  "dataset/book/KB-business-modified.json",
+    "non_oracle_map" : "dataset/scene/ranked_titles_vistel.json",
+    "use_oracle" : 0,
+    "wandb_project" : "kalma_scene_test",
+    "results_save_path" : "results/kalma/scene.json",
+    "valid_batch_size" : 32,
+    "use_gpu" : 1,
+    "movie_flag" : 0
+}

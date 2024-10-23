@@ -1,0 +1,16 @@
+{
+    "train_file" : "dataset/scene/QA-scene-train_modified.json",
+    "valid_file" : "dataset/scene/QA-scene-val_modified.json",
+    "test_file" : "dataset/scene/QA-scene-test_modified.json",
+    "load_from_pretrained_checkpoint" : 0,
+    "path_to_save" : "saved/kalma/scene",
+    "kb_file" :  "dataset/scene/KB-business-modified.json",
+    "wandb_project" : "kalma_scene_train",
+    "train_batch_size" : 2,
+    "valid_batch_size" : 2,
+    "learning_rate" : 2e-5,
+    "num_epochs" : 6,
+    "gradient_accumulation_steps" : 32,
+    "use_text_knowledge" : 0,
+    "use_gpu" : 1
+}
