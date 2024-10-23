@@ -3,7 +3,7 @@
     "valid_file" : "dataset/scene/QA-scene-val_modified.json",
     "test_file" : "dataset/scene/QA-scene-test_modified.json",
     "ocr_output_path" : "dataset/scene/ocr_output.json",
-    "candidate_entity_file" : "dataset/scene/filtered_ranked_titles_scene_train.json",
+    "candidate_entity_file" : "dataset/scene/filtered_ranked_titles_train.json",
     "checkpoint_path": "saved/vistel/scene/",
     "kb_file" :  "dataset/scene/KB-business.json",
     "wandb_project" : "vistel_scene_test",
