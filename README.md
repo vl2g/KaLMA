@@ -1,5 +1,7 @@
 # LMM4Text-KVQA
-Official Implementation of our EMLNP 2024 Paper
+Official Implementation of our EMLNP 2024 Paper "Visual Text Matters: Improving Text-KVQA with Visual Text Entity Knowledge-aware Large Multimodal Assistant"
+
+[paper](https://anandmishra22.github.io/files/Abhirama-EMNLP24.pdf) | [arxiv]() | [project page](https://vl2g.github.io/projects/LMM4Text-KVQA/)
 
 ## Environment
 **To setup environment**
